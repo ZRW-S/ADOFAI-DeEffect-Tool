@@ -1,0 +1,39 @@
+name: build-windows
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install pyinstaller pillow
+
+      - name: Build UI.exe
+        shell: pwsh
+        run: |
+          pyinstaller --noconfirm --onefile --windowed --name UI `
+            --icon src/app.ico --version-file src/version_info.txt `
+            --add-data "src/icons;icons" `
+            --add-data "src/categories;categories" `
+            --add-data "src/categories.json;." `
+            --add-data "src/app.ico;." `
+            --hidden-import PIL._tkinter_finder `
+            src/UI.py
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ADOFAI-DeEffect-Tool-windows
+          path: dist/UI.exe

@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.spec
+
+# Build outputs
+build/
+dist/
+release/
+release_assets/
+*.exe
+*.zip
+
+# Runtime files
+ui_state.json
+options.txt
+levelsset.txt
+events.txt
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store

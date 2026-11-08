@@ -1,0 +1,114 @@
+{
+ "categories": [
+  {
+   "key": "Gameplay",
+   "zh": "玩法",
+   "taroDLC": false,
+   "events": [
+    "SetSpeed",
+    "Twirl",
+    "Multitap",
+    "Checkpoint",
+    "SetHitsound",
+    "SetPlanetRotation",
+    "AutoPlayTiles",
+    "Pause",
+    "KillPlayer",
+    "PlaySound",
+    "ScalePlanets"
+   ]
+  },
+  {
+   "key": "TrackFx",
+   "zh": "轨道",
+   "taroDLC": false,
+   "events": [
+    "ColorTrack",
+    "AnimateTrack",
+    "RecolorTrack",
+    "MoveTrack",
+    "PositionTrack",
+    "TileDimensions",
+    "SetFloorIcon"
+   ]
+  },
+  {
+   "key": "DecorationFx",
+   "zh": "装饰",
+   "taroDLC": false,
+   "events": [
+    "AddDecoration",
+    "AddText",
+    "MoveDecorations",
+    "SetText",
+    "AddObject",
+    "SetObject",
+    "SetDefaultText",
+    "SetParticle",
+    "EmitParticle"
+   ]
+  },
+  {
+   "key": "VisualFx",
+   "zh": "视效",
+   "taroDLC": false,
+   "events": [
+    "CustomBackground",
+    "Flash",
+    "MoveCamera",
+    "SetFilter",
+    "SetFilterAdvanced",
+    "HallOfMirrors",
+    "ShakeScreen",
+    "Bloom",
+    "ScreenTile",
+    "ScreenScroll",
+    "SetFrameRate"
+   ]
+  },
+  {
+   "key": "FxModifiers",
+   "zh": "调整",
+   "taroDLC": false,
+   "events": [
+    "RepeatEvents",
+    "SetConditionalEvents",
+    "SetInputEvent"
+   ]
+  },
+  {
+   "key": "Jank",
+   "zh": "DLC",
+   "taroDLC": true,
+   "events": [
+    "Hold",
+    "SetHoldSound",
+    "MultiPlanet",
+    "ScaleMargin",
+    "ScaleRadius",
+    "FreeRoam",
+    "FreeRoamTwirl",
+    "FreeRoamRemove",
+    "FreeRoamWarning",
+    "Hide"
+   ]
+  },
+  {
+   "key": "Conveniences",
+   "zh": "易用性",
+   "taroDLC": false,
+   "events": [
+    "EditorComment",
+    "Bookmark",
+    "CallMethod",
+    "AddComponent"
+   ]
+  },
+  {
+   "key": "Favorites",
+   "zh": "收藏",
+   "taroDLC": false,
+   "events": []
+  }
+ ]
+}
