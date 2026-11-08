@@ -31,8 +31,8 @@
 
 | 文件 | 说明 |
 |---|---|
-| `ADOFAI_去特效工具_v2.0.0_安装程序.exe` | 安装版：创建桌面/开始菜单快捷方式，可在系统「已安装的应用」中卸载 |
-| `ADOFAI_去特效工具_v2.0.0_绿色版.zip` | 绿色版：解压到任意目录，双击 `UI.exe` 即可使用 |
+| `ADOFAI-DeEffect-Tool-v2.0.0-Setup.exe` | 安装版：创建桌面/开始菜单快捷方式，可在系统「已安装的应用」中卸载 |
+| `ADOFAI-DeEffect-Tool-v2.0.0-Portable.zip` | 绿色版：解压到任意目录，双击 `UI.exe` 即可使用 |
 
 解压/安装后请保持 `UI.exe`、`level.exe`、`events.txt`、`levelsset.txt`、`options.txt` 在同一目录。
 
